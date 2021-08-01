@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<ul class="navbar">
+    <li><a href="viewall">View All</a></li>
+    <li><a href="drawall">Draw All</a></li>
+    <li><a href="create">Add</a></li>
+    <li><a href="delete">Delete</a></li>
+    <li><a href="update">Update</a></li>
+
+</ul>
+<p>Delete a existing rectangle by entering its Unique ID</p>
+<p> View the list of existing rectangles and Unique ID's in the database under the 'View All tab'.</p>
+<br><br>
+
+<form name="deleteRectForm" class="form-style">
+  <label for="uid"> Unique ID </label> <br>
+  <input type="text" id="uid" name="uid" required><br>
+
+  <button type="submit" value="Submit" onclick="deleteRectFormSubmit()"> Delete </button> <br>
+</form>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/delete.js"></script>
+</body>
+</html>

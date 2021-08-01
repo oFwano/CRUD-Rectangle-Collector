@@ -1,0 +1,123 @@
+/*
+Navbar generated from https://www.w3schools.com/css/css_navbar_horizontal.asp
+*/
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #6a6a6a;
+}
+
+
+/*
+
+Table references
+https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy
+https://www.w3schools.com/css/css_table.asp
+ */
+
+.Rectangle-table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:50%;
+}
+
+.Rectangle-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.Rectangle-table td, .Rectangle-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.Rectangle-table tr:nth-child(odd){background-color: #f2f2f2;}
+
+.Rectangle-draw{
+    text-align: center;
+    margin: 10px 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.Rectangle-info{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:50%;
+}
+
+.Rectangle-info th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.Rectangle-info td, .Rectangle-info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.Rectangle-info tr {
+    background-color: #c6c6c6;
+}
+
+.Rectangle-info tr:nth-child(odd){background-color: #f2f2f2;}
+
+.Rectangle-div2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-style{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-weight: bold;
+}
